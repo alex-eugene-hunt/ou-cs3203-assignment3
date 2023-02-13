@@ -10,3 +10,10 @@ int Sum(list<int>nums){
   return rt;
 }
 
+int Product(list<int> nums){
+  int rt = 1;
+  for (int x : nums){
+    rt *= x;
+  }
+  return rt;
+}
