@@ -1,4 +1,5 @@
 #include <list>
+#include <iostream>
 
 using namespace std;
 
@@ -16,4 +17,16 @@ int Product(list<int> nums){
     rt *= x;
   }
   return rt;
+}
+
+int main()
+{
+    list<int>nums;
+    int num;
+    while (cin >> num){
+        nums.push_back(num);
+    }
+    cout << "Sum of nums      : " << Sum(nums) << endl;
+    cout << "Product of nums  : " << Product(nums) << endl;
+    return 0;
 }
