@@ -33,5 +33,10 @@ int main()
     }
     cout << "Sum of nums      : " << Sum(nums) << endl;
     cout << "Product of nums  : " << Product(nums) << endl;
+    cout << "Reversed list    : ";
+    nums = Reversed(nums);
+    for (int i : nums){
+        cout << i << " ";
+    }
     return 0;
 }
