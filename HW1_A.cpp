@@ -19,6 +19,11 @@ int Product(list<int> nums){
   return rt;
 }
 
+list<int> Reversed(list<int> nums){
+  nums.reverse();
+  return nums;
+}
+
 int main()
 {
     list<int>nums;
